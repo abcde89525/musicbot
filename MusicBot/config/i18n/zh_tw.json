@@ -1,0 +1,210 @@
+{
+    
+"cmd-resetplaylist-response": "伺服器的自動播放清單已被重置",
+    
+"cmd-help-invalid": "沒有這種指令,請查明後再試",
+    
+"cmd-help-no-perms": "你沒有權限去使用指令,輸入 `{}help all` 查看全部的指令",
+    
+"cmd-help-response": "需要更了解指令的特定用法,輸入 `{}help [指令]`",
+    
+"cmd-help-all": "\n若要顯示全部的可用指令,請輸入 `{}help all`",
+    
+"cmd-blacklist-invalid": "'{0}' 為無效指令,使用 +, -, add,或remove",
+    
+"cmd-blacklist-added": "{0} 位成員已加進了黑名單",
+    
+"cmd-blacklist-none": "黑名單中沒有任何人",
+    
+"cmd-blacklist-removed": "{0} 位成員已移出黑名單",
+    
+"cmd-id-self": "你的ID是 `{0}`",
+    
+"cmd-id-other": "**{0}**的ID是 `{1}`",
+    
+"cmd-save-exists": "這首歌已經在自動播放清單內",
+    
+"cmd-save-invalid": "沒有任何歌曲播放中",
+    
+"cmd-save-success": "添加 <{0}> 進自動播放清單",
+    
+"cmd-summonserver-response": "點此讓我加進伺服器 \n{}",
+    
+"cmd-play-spotify-album-process": "`{0}` 專輯解析中.....",
+    
+"cmd-play-spotify-album-queued": "`{0}`專輯中有 **{1}** 歌",
+    
+"cmd-play-spotify-playlist-process": "`{0}` 播放清單解析中......",
+    
+"cmd-play-spotify-playlist-queued": "`{0}` 播放清單中有 **{1}** 歌",
+    
+"cmd-play-spotify-unsupported": "這不是Spotify的網址",
+    
+"cmd-play-spotify-invalid": "無效連結或是有未知錯誤而無法播放",
+    
+"cmd-play-spotify-unavailable": "該BOT並不支援Spotify網址播放",
+    
+"cmd-play-limit": "無法播放,你已經達到了播放序列的最大值 ({0})",
+    
+"cmd-play-noinfo": "這部影片無法播放,請使用指令 {0}stream command.",
+    
+"cmd-play-nodata": "影片資訊解析錯誤,如果該情況持續發生可能需要重啟BOT",
+    
+"cmd-play-playlist-error": "播放清單錯誤:\n`{0}`",
+    
+"cmd-play-playlist-gathering-1": "播放清單資訊 {0} , {1}首歌曲解析中.....",
+    
+"cmd-play-playlist-gathering-2": ", 預計完成時間: {0} 秒",
+    
+"cmd-play-playlist-maxduration": "歌曲無法添加,總播放時間已達最大值 (%ss)",
+    
+"cmd-play-playlist-reply": "**%s** 已經播放完畢, %s",
+    
+"cmd-play-playlist-invalid": "此播放清單無法播放",
+    
+"cmd-play-playlist-process": " {0} 首歌曲解析中.....",
+    
+"cmd-play-playlist-queueerror": "歌單 {0} 解析失敗,無法生成",
+    
+"cmd-play-playlist-skipped": "\n該首歌因為時間過長而被跳過.",
+    
+"cmd-play-playlist-reply-secs": " {0} 歌曲將於 {1} 分鐘播放完畢",
+    
+"cmd-play-song-limit": "歌曲時間超過極限值 ({0} > {1})",
+    
+"cmd-play-song-reply": "等待 `%s` 的播放完畢, %s ",
+    
+"cmd-play-next": "下一首準備中! (╯✧∇✧)╯",
+    
+"cmd-play-eta": " - 預估播放時間: %s",
+    
+"cmd-play-badextractor": "你沒有權限使用本服務,請詢問管理員",
+    
+"cmd-stream-limit": "你已達到了歌曲序列的最大值 ({0})",
+    
+"cmd-stream-success": "現正播放",
+    
+"cmd-search-limit": "你已達到了搜尋限制 ({0})",
+    
+"cmd-search-noquery": "請檢查你的關鍵字,我無法搜索.\n%s",
+    
+"cmd-search-noquote": "無關鍵字,請再試一次.",
+    
+"cmd-search-searchlimit": "你無法搜尋超過 %s 部影片",
+    
+"cmd-search-searching": "搜尋影片中.....",
+    
+"cmd-search-none": "沒有找到任何影片",
+    
+"cmd-search-result": "結果 {0}/{1}: {2}",
+    
+"cmd-search-accept": "好的,請求接受!",
+    
+"cmd-search-decline": "糟糕!請試一次",
+    
+"cmd-np-action-streaming": "現正播放",
+    
+"cmd-np-action-playing": "播放中",
+    
+"cmd-np-reply-author": "{action}: **{title}** 添加者: **{author}**\n進度條: {progress_bar} {progress}\n歌曲連結:point_right: <{url}>",
+    
+"cmd-np-reply-noauthor": "{action}: **{title}**\n進度條: {progress_bar} {progress}\n歌曲連結:point_right: <{url}>",
+    
+"cmd-np-none": "無歌曲播放中, 輸入 {0}play 指令來添加歌曲",
+    
+"cmd-summon-novc": "你不在語音頻道裡!",
+    
+"cmd-summon-noperms-connect": "無法連接 `{0}` 頻道, 無權限連接",
+    
+"cmd-summon-noperms-speak": "無法運作於 `{0}` 頻道, 無權限說話",
+    
+"cmd-summon-reply": "`{0.name}` 成功連接!",
+    
+"cmd-pause-reply": "`{0.name}` 暫停中",
+    
+"cmd-pause-none": "播放器不在播放狀態",
+    
+"cmd-resume-reply": "`{0.name}` 重新播放",
+    
+"cmd-resume-none": "播放器不在暫停狀態",
+    
+"cmd-shuffle-reply": "已隨機播放 `{0}`的歌曲.",
+    
+"cmd-clear-reply": "已清空 `{0}`'的所有歌曲!",
+    
+"cmd-remove-none": "已經沒有歌曲可以移除!",
+    
+"cmd-remove-reply": " `{0}`被`{1}`添加的歌曲已被移除",
+    
+"cmd-remove-missing": "無效編號無法移除,移除者: `%s`",
+    
+"cmd-remove-noperms": "你沒有權限移除歌曲,請詢問管理員",
+
+"cmd-remove-invalid": "無效數字,輸入 {}queue 找到該歌曲的編號再試一次",
+    
+"cmd-remove-reply-author": "編號 `{0}`的歌曲已被移除,添加者: `{1}`",
+    
+"cmd-remove-reply-noauthor": "移除編號 `{0}` 的歌曲",
+    
+"cmd-skip-none": "無法跳過!播放器處於暫停狀態!",
+    
+"cmd-skip-dl": "下一首歌: (`%s`) 下載中,請稍後",
+    
+"cmd-skip-force": "強制跳過到 `{}`.",
+    
+"cmd-skip-force-noperms": "你沒有權限使用該指令,請詢問管理員",
+    
+"cmd-skip-reply-skipped-1": "`{0}` 的跳過請求已確認~",
+    
+"cmd-skip-reply-skipped-2": " 下一首歌準備中",
+    
+"cmd-skip-reply-voted-1": "`{0}` 的跳過請求已確認, \n**{1}** more {2} required to vote to skip this song.",
+    
+"cmd-skip-reply-voted-2": "個人是",
+    
+"cmd-skip-reply-voted-3": "群體是",
+    
+"cmd-volume-current": "當前音量: `%s%%`",
+    
+"cmd-volume-invalid": "`{0}` 不是一有有效數字(數值0.01~1.0)",
+   
+"cmd-volume-reply": "音量由 **%d** 調至 **%d**",
+    
+"cmd-volume-unreasonable-relative": "數字總和超過上限值: {}{:+} -> {}%,請把數字定於 {} 和 {:+} 之間",
+    
+"cmd-volume-unreasonable-absolute": " {} 為無效數字 ,閥值必須介於1~100之間",
+    
+"cmd-option-autoplaylist-enabled": "自動播放已經啟用!",
+    
+"cmd-option-autoplaylist-disabled": "自動播放已經停止使用!",
+    
+"cmd-option-autoplaylist-none": "沒有任何歌曲在自動播放清單內",
+    
+"cmd-option-invalid-value": "閥值不是有效數字",
+    
+"cmd-option-invalid-param": "無效參數",
+    
+"cmd-queue-more": "\n.... 還有 %s 首歌未顯示",
+    
+"cmd-queue-none": "已經沒有歌在清單內了,使用 {}play 指令添加歌曲",
+    
+"cmd-queue-playing-author": "正在播放: `{0}`   添加者: `{1}` {2}\n",
+    
+"cmd-queue-playing-noauthor": "正在播放: `{0}` {1}\n",
+    
+"cmd-queue-entry-author": "{0} -- `{1}` 添加者: `{2}`",
+    
+"cmd-queue-entry-noauthor": "{0} -- `{1}`",
+    
+"cmd-clean-invalid": "無效關鍵字. 請添加更多文字以方便搜尋.",
+    
+"cmd-clean-reply": "清除 {0} 頻道的 {1} 篇回應",
+    
+"playlists-noperms": "你沒有權限播放整個清單,請詢問管理員",
+    
+"playlists-big": "播放清單快要塞爆了 ({0} > {1})",
+    
+"playlists-limit": "播放歌曲數目 + 你已達到播放序列的最大值 ({0} + {1} > {2})",
+    
+"karaoke-enabled": "KTV模式已啟動,若要取消請再次輸入指令!"
+}

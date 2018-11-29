@@ -1,0 +1,67 @@
+[17.015457153] 2018-11-29 06:30:56,198 - INFO - launcher: Starting sanity checks
+[17.015457153] 2018-11-29 06:30:56,198 - INFO - launcher: Checking for Python 3.5+
+[18.008708954] 2018-11-29 06:30:56,199 - INFO - launcher: Checking console encoding
+[18.008708954] 2018-11-29 06:30:56,199 - INFO - launcher: Setting console encoding to UTF-8
+[18.008708954] 2018-11-29 06:30:56,199 - INFO - launcher: Ensuring we're in the right environment
+[18.008708954] 2018-11-29 06:30:56,199 - INFO - launcher: Adding local bins/ folder to path
+[239.210128784] 2018-11-29 06:30:56,421 - INFO - launcher: Required checks passed.
+[240.218877792] 2018-11-29 06:30:56,422 - INFO - launcher: Optional checks passed.
+[240.218877792] 2018-11-29 06:30:56,422 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[0.5815291404724121] 2018-11-29 06:30:56,763 - INFO - musicbot.config | In config.py::MainThread(16488), line 124 in run_checks: Using i18n: E:\Dsicord Bot\MusicBot\config\i18n\zh_tw.json
+[0.5815291404724121] 2018-11-29 06:30:56,763 - WARNING - musicbot.config | In config.py::MainThread(16488), line 296 in find_autoplaylist: No autoplaylist file found.
+[0.5825300216674805] 2018-11-29 06:30:56,764 - DEBUG - musicbot.json | In json.py::MainThread(16488), line 8 in __init__: Init JSON obj with E:\Dsicord Bot\MusicBot\config\i18n\zh_tw.json
+[0.5945413112640381] 2018-11-29 06:30:56,776 - DEBUG - musicbot.bot | In bot.py::MainThread(16488), line 223 in _setup_logging: Set logging level to INFO
+[0.5945413112640381] 2018-11-29 06:30:56,776 - INFO - musicbot.bot | In bot.py::MainThread(16488), line 83 in __init__: Starting MusicBot 1.9.8_1
+[0.5945413112640381] 2018-11-29 06:30:56,776 - WARNING - musicbot.bot | In bot.py::MainThread(16488), line 86 in __init__: Autoplaylist is empty, disabling.
+[4.5481045246124268] 2018-11-29 06:31:00,730 - DEBUG - musicbot.bot | In bot.py::MainThread(16488), line 913 in on_ready: Connection established, ready to go.
+[4.5481045246124268] 2018-11-29 06:31:00,730 - DEBUG - musicbot.bot | In bot.py::MainThread(16488), line 334 in _cache_app_info: Caching app info
+[4.7602958679199219] 2018-11-29 06:31:00,942 - DEBUG - musicbot.bot | In bot.py::MainThread(16488), line 735 in _scheck_ensure_env: Ensuring data folders exist
+[4.7613043785095215] 2018-11-29 06:31:00,943 - DEBUG - musicbot.bot | In bot.py::MainThread(16488), line 751 in _scheck_server_permissions: Checking server permissions
+[4.7613043785095215] 2018-11-29 06:31:00,943 - DEBUG - musicbot.bot | In bot.py::MainThread(16488), line 755 in _scheck_autoplaylist: Auditing autoplaylist
+[4.7613043785095215] 2018-11-29 06:31:00,943 - DEBUG - musicbot.bot | In bot.py::MainThread(16488), line 759 in _scheck_configs: Validating config
+[4.7613043785095215] 2018-11-29 06:31:00,943 - DEBUG - musicbot.config | In config.py::MainThread(16488), line 213 in async_validate: Validating options...
+[4.7613043785095215] 2018-11-29 06:31:00,943 - DEBUG - musicbot.bot | In bot.py::MainThread(16488), line 762 in _scheck_configs: Validating permissions config
+[4.7613043785095215] 2018-11-29 06:31:00,943 - DEBUG - musicbot.permissions | In permissions.py::MainThread(16488), line 65 in async_validate: Validating permissions...
+[4.7613043785095215] 2018-11-29 06:31:00,943 - INFO - musicbot.bot | In bot.py::MainThread(16488), line 930 in on_ready: Connected: 517426595011624979/奶魚的音樂機器人#8205
+[4.7622981071472168] 2018-11-29 06:31:00,944 - INFO - musicbot.bot | In bot.py::MainThread(16488), line 938 in on_ready: Owner:     349668888981536768/تৡৢৢৢ奶魚#4852
+
+[4.7622981071472168] 2018-11-29 06:31:00,944 - INFO - musicbot.bot | In bot.py::MainThread(16488), line 941 in on_ready: Guild List:
+[4.7622981071472168] 2018-11-29 06:31:00,944 - INFO - musicbot.bot | In bot.py::MainThread(16488), line 944 in on_ready:  - RUST小夥伴聚會/奶魚窩
+[4.7622981071472168] 2018-11-29 06:31:00,944 - INFO - musicbot.bot | In bot.py::MainThread(16488), line 990 in on_ready: Not bound to any text channels
+[4.7632985115051270] 2018-11-29 06:31:00,945 - INFO - musicbot.bot | In bot.py::MainThread(16488), line 1016 in on_ready: Not autojoining any voice channels
+[4.7632985115051270] 2018-11-29 06:31:00,945 - INFO - musicbot.bot | In bot.py::MainThread(16488), line 1021 in on_ready: Options:
+[4.7632985115051270] 2018-11-29 06:31:00,945 - INFO - musicbot.bot | In bot.py::MainThread(16488), line 1023 in on_ready:   Command prefix: !
+[4.7632985115051270] 2018-11-29 06:31:00,945 - INFO - musicbot.bot | In bot.py::MainThread(16488), line 1024 in on_ready:   Default volume: 10%
+[4.7632985115051270] 2018-11-29 06:31:00,945 - INFO - musicbot.bot | In bot.py::MainThread(16488), line 1026 in on_ready:   Skip threshold: 4 votes or 50%
+[4.7632985115051270] 2018-11-29 06:31:00,945 - INFO - musicbot.bot | In bot.py::MainThread(16488), line 1027 in on_ready:   Now Playing @mentions: Enabled
+[4.7643072605133057] 2018-11-29 06:31:00,946 - INFO - musicbot.bot | In bot.py::MainThread(16488), line 1028 in on_ready:   Auto-Summon: Enabled
+[4.7643072605133057] 2018-11-29 06:31:00,946 - INFO - musicbot.bot | In bot.py::MainThread(16488), line 1029 in on_ready:   Auto-Playlist: Disabled (order: random)
+[4.7643072605133057] 2018-11-29 06:31:00,946 - INFO - musicbot.bot | In bot.py::MainThread(16488), line 1030 in on_ready:   Auto-Pause: Enabled
+[4.7643072605133057] 2018-11-29 06:31:00,946 - INFO - musicbot.bot | In bot.py::MainThread(16488), line 1031 in on_ready:   Delete Messages: Enabled
+[4.7653002738952637] 2018-11-29 06:31:00,947 - INFO - musicbot.bot | In bot.py::MainThread(16488), line 1033 in on_ready:     Delete Invoking: Enabled
+[4.7653002738952637] 2018-11-29 06:31:00,947 - INFO - musicbot.bot | In bot.py::MainThread(16488), line 1034 in on_ready:   Debug Mode: Disabled
+[4.7653002738952637] 2018-11-29 06:31:00,947 - INFO - musicbot.bot | In bot.py::MainThread(16488), line 1035 in on_ready:   Downloaded songs will be saved
+[4.7653002738952637] 2018-11-29 06:31:00,947 - INFO - musicbot.bot | In bot.py::MainThread(16488), line 1037 in on_ready:   Status message: yes
+[4.7663016319274902] 2018-11-29 06:31:00,948 - INFO - musicbot.bot | In bot.py::MainThread(16488), line 1038 in on_ready:   Write current songs to file: Enabled
+[4.7663016319274902] 2018-11-29 06:31:00,948 - INFO - musicbot.bot | In bot.py::MainThread(16488), line 1039 in on_ready:   Author insta-skip: Enabled
+[4.7663016319274902] 2018-11-29 06:31:00,948 - INFO - musicbot.bot | In bot.py::MainThread(16488), line 1040 in on_ready:   Embeds: Enabled
+[4.7673022747039795] 2018-11-29 06:31:00,949 - INFO - musicbot.bot | In bot.py::MainThread(16488), line 1041 in on_ready:   Spotify integration: Disabled
+[4.7673022747039795] 2018-11-29 06:31:00,949 - INFO - musicbot.bot | In bot.py::MainThread(16488), line 1042 in on_ready:   Legacy skip: Disabled
+[4.7683031558990479] 2018-11-29 06:31:00,950 - INFO - musicbot.bot | In bot.py::MainThread(16488), line 267 in _join_startup_channels: Found owner in "語音頻道_2 (5人數上限)"
+[4.7683031558990479] 2018-11-29 06:31:00,950 - INFO - musicbot.bot | In bot.py::MainThread(16488), line 276 in _join_startup_channels: Attempting to join RUST小夥伴聚會/奶魚窩/語音頻道_2 (5人數上限)
+[5.6601111888885498] 2018-11-29 06:31:01,842 - INFO - musicbot.bot | In bot.py::MainThread(16488), line 292 in _join_startup_channels: Joined RUST小夥伴聚會/奶魚窩/語音頻道_2 (5人數上限)
+[5.6601111888885498] 2018-11-29 06:31:01,842 - DEBUG - musicbot.bot | In bot.py::MainThread(16488), line 505 in on_player_stop: Running on_player_stop
+[17.3246724605560303] 2018-11-29 06:31:13,506 - INFO - musicbot.bot | In bot.py::MainThread(16488), line 2597 in on_message: 349668888981536768/تৡৢৢৢ奶魚#4852: !SHUTDOWN
+[17.8311293125152588] 2018-11-29 06:31:14,013 - ERROR - musicbot.bot | In bot.py::MainThread(16488), line 901 in on_error: Exception in on_voice_state_update
+Traceback (most recent call last):
+  File "C:\Users\abcde\AppData\Local\Programs\Python\Python37\lib\site-packages\discord\client.py", line 227, in _run_event
+    await coro(*args, **kwargs)
+  File "E:\Dsicord Bot\MusicBot\musicbot\bot.py", line 2795, in on_voice_state_update
+    player = await self.get_player(channel)
+  File "E:\Dsicord Bot\MusicBot\musicbot\bot.py", line 425, in get_player
+    'Use %ssummon to summon it to your voice channel.' % self.config.command_prefix)
+musicbot.exceptions.CommandError: The bot is not in a voice channel.  Use !summon to summon it to your voice channel.
+[23.058849573] launcher-INFO: All done.
